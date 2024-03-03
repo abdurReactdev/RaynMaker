@@ -19,7 +19,7 @@
                     </thead>
                     <tbody>
                         <tr v-for="t in transactions" style="border-top-style:solid;border-top-width:1px"
-                            v-bind:key="t.date + Math.random()">
+                            :key="t.date + Math.random() ">
                             <td class="date">
                                 {{ t.date }}
                             </td>
