@@ -12,7 +12,7 @@ const router = new Router({
   routes: [
     { path: '/Positions', alias: '/', component: () => import('@/views//Positions/Open/Positions.vue') },
     { path: '/Performance', component: () => import('@/views/Performance/Performance.vue') },
-    { path: '/Cashflow', component: () => import('@/views/Cashflow/Cashflow.vue') },
+    { path: '/Cashflow', component: () => import('@/views/Cashflow/CashflowV3.vue') },
     { path: '/ClosedPositions', component: () => import('@/views/Positions/Closed/ClosedPositions.vue') },
     {
       path: '/PositionDetails',
